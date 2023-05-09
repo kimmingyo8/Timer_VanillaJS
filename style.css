@@ -1,0 +1,87 @@
+@font-face {
+  font-family: "Pretendard";
+  src: url("https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff")
+    format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+
+* {
+  font-family: "Pretendard";
+  color: white;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+  align-items: center;
+  gap: 60px;
+}
+
+body {
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(129, 152, 208, 1) 100%
+  );
+}
+
+.logo {
+  width: 244px;
+}
+
+#timer-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 48px 58px 40px;
+  gap: 57px;
+  width: 400px;
+  border-radius: 16px;
+  background: linear-gradient(144.07deg, #5572bb 2.13%, #374b7c 102.97%);
+  /* shadow */
+  box-shadow: 20px 20px 60px 10px rgba(55, 75, 124, 0.4);
+}
+
+#timer-container h2 {
+  font-weight: 700;
+  font-size: 40px;
+}
+
+#timer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+}
+
+.HMS-container {
+  display: flex;
+  gap: 22px;
+}
+
+.time-box {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.hms-box {
+  width: 80px;
+}
+
+img[class$="btn"] {
+  width: 122px;
+  padding: 6px;
+}
+
+p[class$="txt"] {
+  position: absolute;
+  top: 36px;
+  font-size: 40px;
+  font-weight: 700;
+}
